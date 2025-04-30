@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Srimanikanta Inaparthi, a Full Stack Developer specializing in building innovative and scalable web applications.">
+  <meta property="og:title" content="Srimanikanta Inaparthi | Portfolio">
+  <meta property="og:image" content="profile/image.jpg"> <!-- Replace with actual image URL -->
+  <meta property="og:description" content="Portfolio of Srimanikanta Inaparthi, showcasing skills and projects.">
+  <title>Srimanikanta Inaparthi | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <base href="index.html">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="social-icons">
+    <strong>Contact:</strong>
+    <a href="mailto:Srimanikantainaparthi@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/srimanikanta-inaparthi-887778251/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/srimanikantaInaparthi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.hackerrank.com/profile/manikanta611" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <img src="profile/image.jpg" alt="Srimanikanta Photo">
+  <div class="hero-content">
+    <h1>Srimanikanta Inaparthi</h1>
+    <h3>Full Stack Developer</h3>
+    <p>Building Innovative and Scalable Web Applications</p>
+    <p>I am a Computer Science graduate with a strong foundation in software engineering.</p>
+    <p>My goal is to create impactful software solutions that solve real-world problems.</p>
+    <p>I strive for continuous growth as a full stack developer and effective team contributor.</p>
+    <a href="#projects" class="cta-btn">View My Work</a>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> Java, Python, C</li>
+    <li><strong>Front-End Technologies:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Database Management:</strong> MySQL, AWS</li>
+    <li><strong>Frameworks/Tools:</strong> REST API, Git, GitHub, Postman</li>
+    <li><strong>Software Tools:</strong>Visual Studio Code, MS Office, Excel</li>
+    <li><strong>Development Practices:</strong>Agile, Test-Driven Development (TDD)</li>
+  </ul>
+  <div class="resume-btn">
+    <a href="Srimanikanta.pdf" download>Download Resume</a>
+  </div>
+</section>
+
+<section id="projects" class="projects-section" style="background-color: #eef0f8; padding: 50px 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 900px; margin: 40px auto;">
+  <h2 style="font-size: 32px; color: #0a043c; margin-bottom: 30px; text-align: center;">Projects</h2>
+  <div class="project" style="background-color: white; padding: 25px 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 30px;">
+    <h3 style="font-size: 24px; color: #1a055c; margin-bottom: 15px;">Live Project: SALES INFINITY – AI-Powered CRM Platform</h3>
+    <p style="font-size: 18px; color: #333; line-height: 1.6;">Worked on SALES INFINITY, a live CRM and sales automation project designed for industries like Real Estate, Healthcare, Insurance, and more. The platform automates lead capture, follow-ups, and communication across SMS, WhatsApp, and email. Contributed to modules such as Lead Management, Smart Communication, Marketing Automation, and Call Centre Integration. Gained hands-on experience with CRM workflows, client engagement tools, and sales process optimization.</p>
+    <p style="font-size: 18px; color: #0a043c; font-weight: 600;">Website: <a href="https://www.edze.in/" target="_blank" rel="noopener noreferrer" style="color: #1a055c; text-decoration: underline;">check the Project here</a></p>
+  </div>
+  <!-- Add more projects here -->
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form class="contact-form" action="YOUR_BACKEND_URL" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Srimanikanta Inaparthi. All rights reserved.</p>
+</footer>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
