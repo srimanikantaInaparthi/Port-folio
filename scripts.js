@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     Email.send({
-      SecureToken: "YOUR_SECURE_TOKEN_HERE", // Replace with your actual secure token from smtpjs.com
+      SecureToken: "5d4090cd-32c1-4889-ad58-c8c033e2f282", // Replace with your actual secure token from smtpjs.com
       To: 'srimanikantainaparthi@gmail.com', // Replace with your email address to receive messages
       From: email,
       Subject: `New Contact Form Message from ${name}`,
