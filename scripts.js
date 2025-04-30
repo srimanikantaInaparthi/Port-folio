@@ -24,11 +24,12 @@ document.addEventListener('DOMContentLoaded', function () {
       Subject: `New Contact Form Message from ${name}`,
       Body: `Name: ${name}<br/>Email: ${email}<br/>Message: ${message}`
     }).then(function (message) {
-      alert("Message sent successfully!");
+      console.log("Email sent successfully:", message);
+      alert("Sent successfully");
       form.reset();
     }).catch(function (error) {
+      console.error("Email sending failed:", error);
       alert("Failed to send message. Please try again later.");
-      console.error(error);
     });
   });
 });
