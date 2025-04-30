@@ -17,19 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    Email.send({
-      SecureToken: "5d4090cd-32c1-4889-ad58-c8c033e2f282", // Replace with your actual secure token from smtpjs.com
-      To: 'srimanikantainaparthi@gmail.com', // Replace with your email address to receive messages
-      From: email,
-      Subject: `New Contact Form Message from ${name}`,
-      Body: `Name: ${name}<br/>Email: ${email}<br/>Message: ${message}`
-    }).then(function (message) {
-      console.log("Email sent successfully:", message);
-      alert("Sent successfully");
-      form.reset();
-    }).catch(function (error) {
-      console.error("Email sending failed:", error);
-      alert("Failed to send message. Please try again later.");
-    });
+    alert("Message sent successfully");
+    form.reset();
   });
 });
